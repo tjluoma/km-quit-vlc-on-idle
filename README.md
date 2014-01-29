@@ -1,4 +1,4 @@
-# Km-Quit-VLC-on-Idle #
+# km-Quit-VLC-on-Idle #
 
 
 [Ask Different user asked](http://apple.stackexchange.com/questions/118915/is-there-a-way-to-shutdown-mac-when-screen-is-turned-off):
