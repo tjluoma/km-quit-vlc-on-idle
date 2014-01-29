@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Calculation</string>
+									<key>Text</key>
+									<string>SCREENSAVER()</string>
+								</dict>
+								<dict>
+									<key>ConditionType</key>
+									<string>Calculation</string>
+									<key>Text</key>
+									<string>IDLE() &gt; 300</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Comment</string>
+								<key>Text</key>
+								<string>IDLE() &gt; 300 means = 5 minutes idle time
+Either the screensaver is ON or the screen is OFF</string>
+								<key>Title</key>
+								<string>(screen off OR screensaver on) AND idle 300 seconds</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>Quit</string>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>org.videolan.vlc</string>
+									<key>Name</key>
+									<string>VLC</string>
+									<key>NewFile</key>
+									<string>/Applications/VLC.app</string>
+								</dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>QuitSpecificApp</string>
+								<key>Target</key>
+								<string>Specific</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>412711354.88102901</real>
+				<key>Name</key>
+				<string>Quit VLC if (Screensaver = On/Screen = Off) and Idle 300s</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ExecuteType</key>
+						<string>While</string>
+						<key>MacroTriggerType</key>
+						<string>Time</string>
+						<key>Repeat</key>
+						<true/>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>TimeFinishHour</key>
+						<integer>0</integer>
+						<key>TimeFinishMinutes</key>
+						<integer>0</integer>
+						<key>TimeHour</key>
+						<integer>0</integer>
+						<key>TimeMinutes</key>
+						<integer>0</integer>
+						<key>WhichDays</key>
+						<integer>127</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8B3ED39F-282E-4419-AB09-03C938850C65</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>UID</key>
+		<string>DA8512F7-F323-46B1-8319-752E0495CFD0</string>
+	</dict>
+</array>
+</plist>
