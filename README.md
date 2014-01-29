@@ -23,7 +23,7 @@ Then we just have to tell Keyboard Maestro how often to have this macro run. I d
 
 Here’s what the macro looks like in Keyboard Maestro:
 
-![](KM-Quit-VLC-idle-screensaver.png)
+![](screenshot.png)
 
 To use this macro, [download the file](KM-Quit-VLC-idle-screensaver.kmmacros) and then double-click it to install in Keyboard Maestro.
 
