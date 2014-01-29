@@ -25,7 +25,7 @@ Here’s what the macro looks like in Keyboard Maestro:
 
 ![](screenshot.png)
 
-To use this macro, [download the file](KM-Quit-VLC-idle-screensaver.kmmacros) and then double-click it to install in Keyboard Maestro.
+To use this macro, [download the file](https://raw.github.com/tjluoma/km-quit-vlc-on-idle/master/Quit-VLC-on-IDLE.kmmacros) and then double-click it to install in Keyboard Maestro.
 
 If you want to change the app which will be quit, just click ‘VLC’ and choose a different app. 
 
